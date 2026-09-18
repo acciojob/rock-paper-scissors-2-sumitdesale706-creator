@@ -1,2 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
 
-/* Your CSS Code here. */
+.container {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 320px;
+}
+
+.results {
+  background-color: #fafafa;
+  border: 1px solid #e2e8f0;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.item {
+  flex: 1;
+  padding: 0.5rem;
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+#play-game {
+  width: 100%;
+  margin-top: 1rem;
+  padding: 0.6rem;
+  background-color: #185adb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
